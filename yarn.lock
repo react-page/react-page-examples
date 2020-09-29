@@ -1509,7 +1509,7 @@
     uniforms-bridge-json-schema "~2.5.0"
     uniforms-material "~2.5.0"
 
-"@react-page/editor@latest":
+"@react-page/editor@^0.25.10":
   version "0.25.10"
   resolved "https://registry.yarnpkg.com/@react-page/editor/-/editor-0.25.10.tgz#0a7936da9985dd651eab4c4d2e3deb407ee6a8d6"
   integrity sha512-jEwq4CRHswIt2sWo4O6kbXqjr0aHE/E/9QPfTIDVbqL1h0E94t9NvUch9WI+4XBJnFwnF+pQWAM06Vb3bGhuuA==
@@ -1518,7 +1518,7 @@
     "@react-page/renderer" "^0.25.10"
     "@react-page/ui" "^0.25.10"
 
-"@react-page/plugins-background@latest":
+"@react-page/plugins-background@^0.25.10":
   version "0.25.10"
   resolved "https://registry.yarnpkg.com/@react-page/plugins-background/-/plugins-background-0.25.10.tgz#9fb737a1c014bb9394a0731c08f8d3c0e7b474b4"
   integrity sha512-MKkX4YbGAHIuTIjUpVSTR4jYO2M1dQ9p7OoSqllKWQlQW7oE6nB5/vTjiqDb24fxfmD7Wfob1wcqsrOPF/zs0g==
@@ -1526,7 +1526,30 @@
     "@react-page/core" "^0.25.10"
     "@react-page/ui" "^0.25.10"
 
-"@react-page/plugins-slate@latest":
+"@react-page/plugins-default-native@^0.25.10":
+  version "0.25.10"
+  resolved "https://registry.yarnpkg.com/@react-page/plugins-default-native/-/plugins-default-native-0.25.10.tgz#4aec853041b4730b204b1dd5069d0b0dead739e2"
+  integrity sha512-aGjYqFuY1RmbXxn9fRK8F5NrEMSwyG5savZCU0fsIq2Lw5jw8Z2mX6yhhbRFssD1NrkVxeIqVVD7vFfJikPz1w==
+  dependencies:
+    "@react-page/core" "^0.25.10"
+
+"@react-page/plugins-divider@^0.25.10":
+  version "0.25.10"
+  resolved "https://registry.yarnpkg.com/@react-page/plugins-divider/-/plugins-divider-0.25.10.tgz#3df6a28563a066da95cadd77cc69fa6496f24422"
+  integrity sha512-Q5RDmpjo9Et9KjRMr8DjuhpYc/EJO7TiR4BYGbVQYoplkqYopmlPIZke/vLDTAWTIH7ffxZ7V24d57vO0QCIuQ==
+  dependencies:
+    "@material-ui/icons" "^4.2.1"
+    "@react-page/core" "^0.25.10"
+
+"@react-page/plugins-image@^0.25.10":
+  version "0.25.10"
+  resolved "https://registry.yarnpkg.com/@react-page/plugins-image/-/plugins-image-0.25.10.tgz#328f909adba999fe2ed5e1cd6000e39a5133424c"
+  integrity sha512-QlU0f/f906h/gIDP87kCmU48JrKhTXYeG4l/fhGuRlWB54AIa40bA0D8NWyvxqJ5yOKpoFl4YuVnP/b6PRYR1w==
+  dependencies:
+    "@react-page/core" "^0.25.10"
+    "@react-page/ui" "^0.25.10"
+
+"@react-page/plugins-slate@^0.25.10":
   version "0.25.10"
   resolved "https://registry.yarnpkg.com/@react-page/plugins-slate/-/plugins-slate-0.25.10.tgz#7f81e819f59df0104507379e668f7f802af591c8"
   integrity sha512-LC1/VZlI0Ramft1O+gxAbPGQDmBNvCeCU9xqFcNW1bZTStGtir8bNSqNz6xyA3Ot4TUUBlP3GhCNLlWIreiGMg==
@@ -1553,6 +1576,42 @@
     uniforms-bridge-json-schema "~2.5.0"
     uniforms-material "~2.5.0"
     xmldom "^0.3.0"
+
+"@react-page/plugins-spacer@^0.25.10":
+  version "0.25.10"
+  resolved "https://registry.yarnpkg.com/@react-page/plugins-spacer/-/plugins-spacer-0.25.10.tgz#4c5e142c6ad753380ff200b10097ac40c54fa644"
+  integrity sha512-X2DvhjPb6BVJ+aKI4rzUD/L/Zd9sH+p7/snKP+SE8wd9kgq6L4aK5e89jN+TdoqXCPoCI/YZPQ8NlQXQqrIhug==
+  dependencies:
+    "@react-page/core" "^0.25.10"
+    "@react-page/ui" "^0.25.10"
+    classnames "2.2.6"
+    react-resizable "^1.9.0"
+
+"@react-page/plugins-video@^0.25.10":
+  version "0.25.10"
+  resolved "https://registry.yarnpkg.com/@react-page/plugins-video/-/plugins-video-0.25.10.tgz#35c96a2e6c5e9ee7605d97d5915b72b43328a3b0"
+  integrity sha512-/Jk15/yq/14xbJaN4NVUbKLZjOKm/wCO/w9CHQkvOXbEnRlUAJwJnuj8dCeEEQi4yWW41XVaoDzLNjVZ7FunRA==
+  dependencies:
+    "@react-page/core" "^0.25.10"
+    "@react-page/ui" "^0.25.10"
+    react-player "^1.13.0"
+
+"@react-page/react-page@^0.25.10":
+  version "0.25.10"
+  resolved "https://registry.yarnpkg.com/@react-page/react-page/-/react-page-0.25.10.tgz#36a9924ae42e36a7fc4bb8172ef9c2198f5820ec"
+  integrity sha512-D+yARaeZtioPt4ZSc4gp5o/swH4EJqZiewPXC6M1AMB1KRqPKQnC8oMght++/ZdfmthEDf5usIZtnff1EmWJ/g==
+  dependencies:
+    "@react-page/core" "^0.25.10"
+    "@react-page/editor" "^0.25.10"
+    "@react-page/plugins-background" "^0.25.10"
+    "@react-page/plugins-default-native" "^0.25.10"
+    "@react-page/plugins-divider" "^0.25.10"
+    "@react-page/plugins-image" "^0.25.10"
+    "@react-page/plugins-slate" "^0.25.10"
+    "@react-page/plugins-spacer" "^0.25.10"
+    "@react-page/plugins-video" "^0.25.10"
+    "@react-page/renderer" "^0.25.10"
+    "@react-page/ui" "^0.25.10"
 
 "@react-page/renderer@^0.25.10":
   version "0.25.10"
@@ -3117,7 +3176,7 @@ class-utils@^0.3.5:
     isobject "^3.0.0"
     static-extend "^0.1.1"
 
-classnames@2.x, classnames@^2.2.1, classnames@^2.2.5, classnames@^2.2.6:
+classnames@2.2.6, classnames@2.x, classnames@^2.2.1, classnames@^2.2.5, classnames@^2.2.6:
   version "2.2.6"
   resolved "https://registry.yarnpkg.com/classnames/-/classnames-2.2.6.tgz#43935bffdd291f326dad0a205309b38d00f650ce"
   integrity sha512-JR/iSQOSt+LQIWwrwEzJ9uk0xfN3mTVYMwt1Ir5mUcSN6pU+V4zQFFaJsclJbPuAUQH+yfWef6tm7l1quW3C8Q==
@@ -3864,6 +3923,11 @@ deep-rename-keys@^0.2.1:
     kind-of "^3.0.2"
     rename-keys "^1.1.2"
 
+deepmerge@^4.0.0:
+  version "4.2.2"
+  resolved "https://registry.yarnpkg.com/deepmerge/-/deepmerge-4.2.2.tgz#44d2ea3679b8f4d4ffba33f03d865fc1e7bf4955"
+  integrity sha512-FJ3UgI4gIl+PHZm53knsuSFpE+nESMr7M4v9QcgB7S63Kj/6WqMiFQJpBBYz1Pt+66bZpP3Q7Lye0Oo9MPKEdg==
+
 default-gateway@^4.2.0:
   version "4.2.0"
   resolved "https://registry.yarnpkg.com/default-gateway/-/default-gateway-4.2.0.tgz#167104c7500c2115f6dd69b0a536bb8ed720552b"
@@ -4177,9 +4241,9 @@ ee-first@1.1.1:
   integrity sha1-WQxhFWsK4vTwJVcyoViyZrxWsh0=
 
 electron-to-chromium@^1.3.378, electron-to-chromium@^1.3.571:
-  version "1.3.575"
-  resolved "https://registry.yarnpkg.com/electron-to-chromium/-/electron-to-chromium-1.3.575.tgz#57065cfad7b977a817dba47b28e7eb4dbce3fc37"
-  integrity sha512-031VrjcilnE8bXivDGhEeuGjMZrjTAeyAKm3XWPY9SvGYE6Hn8003gCqoNszFu6lh1v0gDx5hrM0VE1cPSMUkQ==
+  version "1.3.576"
+  resolved "https://registry.yarnpkg.com/electron-to-chromium/-/electron-to-chromium-1.3.576.tgz#2e70234484e03d7c7e90310d7d79fd3775379c34"
+  integrity sha512-uSEI0XZ//5ic+0NdOqlxp0liCD44ck20OAGyLMSymIWTEAtHKVJi6JM18acOnRgUgX7Q65QqnI+sNncNvIy8ew==
 
 elliptic@^6.5.3:
   version "6.5.3"
@@ -6886,6 +6950,11 @@ load-json-file@^4.0.0:
     pify "^3.0.0"
     strip-bom "^3.0.0"
 
+load-script@^1.0.0:
+  version "1.0.0"
+  resolved "https://registry.yarnpkg.com/load-script/-/load-script-1.0.0.tgz#0491939e0bee5643ee494a7e3da3d2bac70c6ca4"
+  integrity sha1-BJGTngvuVkPuSUp+PaPSuscMbKQ=
+
 loader-fs-cache@^1.0.2:
   version "1.0.3"
   resolved "https://registry.yarnpkg.com/loader-fs-cache/-/loader-fs-cache-1.0.3.tgz#f08657646d607078be2f0a032f8bd69dd6f277d9"
@@ -7688,9 +7757,9 @@ onetime@^5.1.0:
     mimic-fn "^2.1.0"
 
 open@^7.0.2:
-  version "7.2.1"
-  resolved "https://registry.yarnpkg.com/open/-/open-7.2.1.tgz#07b0ade11a43f2a8ce718480bdf3d7563a095195"
-  integrity sha512-xbYCJib4spUdmcs0g/2mK1nKo/jO2T7INClWd/beL7PFkXRWgr8B23ssDHX/USPn2M2IjDR5UdpYs6I67SnTSA==
+  version "7.3.0"
+  resolved "https://registry.yarnpkg.com/open/-/open-7.3.0.tgz#45461fdee46444f3645b6e14eb3ca94b82e1be69"
+  integrity sha512-mgLwQIx2F/ye9SmbrUkurZCnkoXyXyu9EbHtJZrICjVAJfyMArdHp3KkixGdZx1ZHFPNIwl0DDM1dFFqXbTLZw==
   dependencies:
     is-docker "^2.0.0"
     is-wsl "^2.1.1"
@@ -9142,6 +9211,15 @@ react-is@^16.12.0, react-is@^16.7.0, react-is@^16.8.0, react-is@^16.8.1, react-i
   resolved "https://registry.yarnpkg.com/react-is/-/react-is-16.13.1.tgz#789729a4dc36de2999dc156dd6c1d9c18cea56a4"
   integrity sha512-24e6ynE2H+OKt4kqsOvNd8kBpV65zoxbA4BVsEOB3ARVWQki/DHzaUoC5KuON/BiccDaCCTZBuOcfZs70kR8bQ==
 
+react-player@^1.13.0:
+  version "1.15.3"
+  resolved "https://registry.yarnpkg.com/react-player/-/react-player-1.15.3.tgz#d00cf145f9c86184cb0a071a1fbf8ecb7b68987f"
+  integrity sha512-8fc0R1AipFIy7l4lKgnIg+gMU2IY32ZMxxBlINjXAq/YnN3HUP3hOaE+aQ0lQv+a1/MMZgbekWD86ZGDO7kB8g==
+  dependencies:
+    deepmerge "^4.0.0"
+    load-script "^1.0.0"
+    prop-types "^15.7.2"
+
 react-portal@4.1.5:
   version "4.1.5"
   resolved "https://registry.yarnpkg.com/react-portal/-/react-portal-4.1.5.tgz#6665d4d2a92d47d6f8b07a6529e26fc52d5cccde"
@@ -9160,7 +9238,7 @@ react-redux@^7.2.0:
     prop-types "^15.7.2"
     react-is "^16.9.0"
 
-react-resizable@^1.10.1:
+react-resizable@^1.10.1, react-resizable@^1.9.0:
   version "1.11.0"
   resolved "https://registry.yarnpkg.com/react-resizable/-/react-resizable-1.11.0.tgz#0b237c4aff16937b7663de1045861749683227ad"
   integrity sha512-VoGz2ddxUFvildS8r8/29UZJeyiM3QJnlmRZSuXm+FpTqq/eIrMPc796Y9XQLg291n2hFZJtIoP1xC3hSTw/jg==
