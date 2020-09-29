@@ -6,12 +6,14 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "upgrade-react-page": "for i in react-page editor plugins-background plugins-slate; do yarn add \"@react-page/${i}@latest\"; done"
   },
   "dependencies": {
-    "@react-page/editor": "latest",
-    "@react-page/plugins-background": "latest",
-    "@react-page/plugins-slate": "latest",
+    "@react-page/editor": "^0.25.10",
+    "@react-page/plugins-background": "^0.25.10",
+    "@react-page/plugins-slate": "^0.25.10",
+    "@react-page/react-page": "^0.25.10",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
     "typescript": "^4.0.3"
@@ -22,7 +24,11 @@
     "react-scripts": "latest"
   },
   "browserslist": {
-    "production": [">0.2%", "not dead", "not op_mini all"],
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
     "development": [
       "last 1 chrome version",
       "last 1 firefox version",
