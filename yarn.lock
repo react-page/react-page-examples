@@ -1475,10 +1475,10 @@
   resolved "https://registry.yarnpkg.com/@react-dnd/shallowequal/-/shallowequal-2.0.0.tgz#a3031eb54129f2c66b2753f8404266ec7bf67f0a"
   integrity sha512-Pc/AFTdwZwEKJxFJvlxrSmGe/di+aAOBn60sremrpLo6VI/6cmiUYNNwlI5KNYttg7uypzA3ILPMPgxB2GYZEg==
 
-"@react-page/core@^0.25.1":
-  version "0.25.1"
-  resolved "https://registry.yarnpkg.com/@react-page/core/-/core-0.25.1.tgz#810be9cc04f041c79d99aa38dabd81686d6ba853"
-  integrity sha512-O+91m7cfe4SOTywmojY4aovWiR1RYXIHRl+EYz4Jqz+C0MpuJzJkVnSyBODa32og18Pezew+RF8qXAypraa6Sw==
+"@react-page/core@^0.25.10":
+  version "0.25.10"
+  resolved "https://registry.yarnpkg.com/@react-page/core/-/core-0.25.10.tgz#be9791a3978dfa77d28c9ce52074479e9e5b09e5"
+  integrity sha512-M6D22oGy+17M5eLMy7JCHVArN751G40fmCtFW8qJkg4mGzJuDSJCQvjU0tKOSn8qHUAXERuhZNNiOFM+R3ituw==
   dependencies:
     "@loadable/component" "5.10.3"
     classnames "^2.2.5"
@@ -1496,44 +1496,45 @@
     semver "^7.3.2"
     uuid "^3.0.1"
 
-"@react-page/create-plugin-materialui@^0.25.1":
-  version "0.25.1"
-  resolved "https://registry.yarnpkg.com/@react-page/create-plugin-materialui/-/create-plugin-materialui-0.25.1.tgz#e7d34e8ce86682c3929536f1e89ac335602af0e2"
-  integrity sha512-8hh+j5Zbdvll9CXogd/aqzgm/ZWWnewKRo9EPPsdBjEHraCZDsKqjNoKZCF9g7mOhAOSW1KhTq5qMIW2Y1Mclw==
+"@react-page/create-plugin-materialui@^0.25.10":
+  version "0.25.10"
+  resolved "https://registry.yarnpkg.com/@react-page/create-plugin-materialui/-/create-plugin-materialui-0.25.10.tgz#ab6c330623783056ae2700d6d834a5a7cf6f718e"
+  integrity sha512-QzTrMn7dtxxULWq+8JGJgyK6iTl9YkV6gGSAvFSxRsTd61TmTeoMW2kfrdnWLemYUpDVI9VtN3TEFxhr7AfB6Q==
   dependencies:
-    "@react-page/core" "^0.25.1"
-    "@react-page/ui" "^0.25.1"
+    "@react-page/core" "^0.25.10"
+    "@react-page/ui" "^0.25.10"
+    ajv "^6.12.5"
     lodash.debounce "^4.0.8"
     uniforms "~2.5.0"
     uniforms-bridge-json-schema "~2.5.0"
     uniforms-material "~2.5.0"
 
 "@react-page/editor@latest":
-  version "0.25.1"
-  resolved "https://registry.yarnpkg.com/@react-page/editor/-/editor-0.25.1.tgz#017e9d9b410387f83fe5623e188d1b9e006721d9"
-  integrity sha512-HTLIub7x9e7Ywfjxtu9voTUzdGnHzs/3WEZOepzoqdOP8xdEtuNEWBEmdWp3TZo6Y5ZlmauoOQgmXLqEQ/J8+A==
+  version "0.25.10"
+  resolved "https://registry.yarnpkg.com/@react-page/editor/-/editor-0.25.10.tgz#0a7936da9985dd651eab4c4d2e3deb407ee6a8d6"
+  integrity sha512-jEwq4CRHswIt2sWo4O6kbXqjr0aHE/E/9QPfTIDVbqL1h0E94t9NvUch9WI+4XBJnFwnF+pQWAM06Vb3bGhuuA==
   dependencies:
-    "@react-page/core" "^0.25.1"
-    "@react-page/renderer" "^0.25.1"
-    "@react-page/ui" "^0.25.1"
+    "@react-page/core" "^0.25.10"
+    "@react-page/renderer" "^0.25.10"
+    "@react-page/ui" "^0.25.10"
 
 "@react-page/plugins-background@latest":
-  version "0.25.1"
-  resolved "https://registry.yarnpkg.com/@react-page/plugins-background/-/plugins-background-0.25.1.tgz#0e6109360c25eb6ef5075baeefd52a04e4fd47e6"
-  integrity sha512-jbxKeiYM1lkbweG5XnmIsghe6qNXjV8BUSvPAcOOL7DNCDJ5Dpkl5J1LPvgH03E+TDKvXPLN+CXHvPtX7aF5bw==
+  version "0.25.10"
+  resolved "https://registry.yarnpkg.com/@react-page/plugins-background/-/plugins-background-0.25.10.tgz#9fb737a1c014bb9394a0731c08f8d3c0e7b474b4"
+  integrity sha512-MKkX4YbGAHIuTIjUpVSTR4jYO2M1dQ9p7OoSqllKWQlQW7oE6nB5/vTjiqDb24fxfmD7Wfob1wcqsrOPF/zs0g==
   dependencies:
-    "@react-page/core" "^0.25.1"
-    "@react-page/ui" "^0.25.1"
+    "@react-page/core" "^0.25.10"
+    "@react-page/ui" "^0.25.10"
 
 "@react-page/plugins-slate@latest":
-  version "0.25.1"
-  resolved "https://registry.yarnpkg.com/@react-page/plugins-slate/-/plugins-slate-0.25.1.tgz#04eda53d1c8196b4e29488b7bc33f44ac40b7995"
-  integrity sha512-LMehBiMEeUesn4iHDhsvulh6H/dbzI9FOTF5QpEgkvXy1N5pHGAP9PTFhDi083zFGbkJpjzCnAudh8fPIEVo7A==
+  version "0.25.10"
+  resolved "https://registry.yarnpkg.com/@react-page/plugins-slate/-/plugins-slate-0.25.10.tgz#7f81e819f59df0104507379e668f7f802af591c8"
+  integrity sha512-LC1/VZlI0Ramft1O+gxAbPGQDmBNvCeCU9xqFcNW1bZTStGtir8bNSqNz6xyA3Ot4TUUBlP3GhCNLlWIreiGMg==
   dependencies:
     "@emotion/is-prop-valid" "^0.8.8"
-    "@react-page/core" "^0.25.1"
-    "@react-page/create-plugin-materialui" "^0.25.1"
-    "@react-page/ui" "^0.25.1"
+    "@react-page/core" "^0.25.10"
+    "@react-page/create-plugin-materialui" "^0.25.10"
+    "@react-page/ui" "^0.25.10"
     cssstyle "^2.3.0"
     deep-rename-keys "^0.2.1"
     is-hotkey "^0.1.6"
@@ -1553,24 +1554,24 @@
     uniforms-material "~2.5.0"
     xmldom "^0.3.0"
 
-"@react-page/renderer@^0.25.1":
-  version "0.25.1"
-  resolved "https://registry.yarnpkg.com/@react-page/renderer/-/renderer-0.25.1.tgz#7846dbf6c00d975c4498aa39b012c47bf69d7af1"
-  integrity sha512-KeY25+5EsrWlrMR370vAHv/vmzfNLzmzrbee8Etxs6sBHmXHbSY1ATBgd/tlMEnjx05gQTH43uBmLL6/ChbnoQ==
+"@react-page/renderer@^0.25.10":
+  version "0.25.10"
+  resolved "https://registry.yarnpkg.com/@react-page/renderer/-/renderer-0.25.10.tgz#ae61a7e526687ea292ab911bb881ab7b4d4f3ceb"
+  integrity sha512-IrO/OUUZAe327UIIKNxOCjblMhUYvbawUPWxa7P6DdFawNgDgkcHsapPqVxP60RWqc9SQkV6nBZVMLfpU0YRlQ==
   dependencies:
-    "@react-page/core" "^0.25.1"
+    "@react-page/core" "^0.25.10"
     classnames "^2.2.5"
 
-"@react-page/ui@^0.25.1":
-  version "0.25.1"
-  resolved "https://registry.yarnpkg.com/@react-page/ui/-/ui-0.25.1.tgz#ea7b6595c0c8858cd72158479e3669e0ff092ba3"
-  integrity sha512-eQ++GAN85A/UsmXjl7f+QAuldfzRHdAhqfkrjRNu91Yp8zhKucMGftb26LNlIT+Dlga/8krcIDqLe+LExfsc3Q==
+"@react-page/ui@^0.25.10":
+  version "0.25.10"
+  resolved "https://registry.yarnpkg.com/@react-page/ui/-/ui-0.25.10.tgz#bd330c9b96ba4a606e7cd2976893a91c1cf97639"
+  integrity sha512-1jLmGTIYEV9UnxYe5+KdmIdcp9IVS5z8E6xFxhxxT+yPkMHaWUPVJr+Rlj/7u+il1jet8ksHvZBHtFiYihL+ig==
   dependencies:
     "@loadable/component" "5.10.3"
     "@material-ui/core" "^4.3.3"
     "@material-ui/icons" "^4.2.1"
     "@material-ui/styles" "^4.3.3"
-    "@react-page/core" "^0.25.1"
+    "@react-page/core" "^0.25.10"
     classnames "^2.2.5"
     device.js "^2.3.0"
     lodash.throttle "^4.1.1"
@@ -2124,7 +2125,7 @@ ajv-keywords@^3.1.0, ajv-keywords@^3.4.1, ajv-keywords@^3.5.2:
   resolved "https://registry.yarnpkg.com/ajv-keywords/-/ajv-keywords-3.5.2.tgz#31f29da5ab6e00d1c2d329acf7b5929614d5014d"
   integrity sha512-5p6WTN0DdTGVQk6VjcEju19IgaHudalcfabD7yhDGeA6bcQnmL+CpveLJq/3hvfwd1aof6L386Ougkx6RfyMIQ==
 
-ajv@^6.1.0, ajv@^6.10.0, ajv@^6.10.2, ajv@^6.12.3, ajv@^6.12.4:
+ajv@^6.1.0, ajv@^6.10.0, ajv@^6.10.2, ajv@^6.12.3, ajv@^6.12.4, ajv@^6.12.5:
   version "6.12.5"
   resolved "https://registry.yarnpkg.com/ajv/-/ajv-6.12.5.tgz#19b0e8bae8f476e5ba666300387775fb1a00a4da"
   integrity sha512-lRF8RORchjpKG50/WFf8xmg7sgCLFiYNNnqdKflk63whMQcWR5ngGjiSXkL9bjxy6B2npOK2HSMN49jEBMSkag==
