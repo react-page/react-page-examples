@@ -12,13 +12,12 @@ const plugins = {
 };
 
 export const SimpleReadonlyExample = () => {
-  const [editorValue, setEditorValue] = useState(simpleReadonlyDefaultState);
+  const [editorValue] = useState(simpleReadonlyDefaultState);
   return (
     <Editor
       plugins={plugins}
       defaultPlugin={slate()}
       value={editorValue}
-      onChange={setEditorValue}
       readOnly={true}
     />
   );
