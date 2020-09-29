@@ -11,7 +11,7 @@ const plugins = {
   layout: [background({ defaultPlugin: slate() })],
 };
 
-export default () => {
+export const SimpleReadonlyExample = () => {
   const [editorValue, setEditorValue] = useState(simpleReadonlyDefaultState);
   return (
     <Editor

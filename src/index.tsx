@@ -7,29 +7,29 @@ import '@react-page/ui/lib/index.css';
 import '@react-page/plugins-slate/lib/index.css';
 import '@react-page/plugins-background/lib/index.css';
 
-import Simple from './Simple';
-import ImagePlugin from './builtin-plugins/image';
-import SpacerPlugin from './builtin-plugins/spacer';
-import SimpleReadonly from './SimpleReadonly';
+import { SimpleExample } from './SimpleExample';
+import { SimpleReadonlyExample } from './SimpleReadonly';
+import { ImagePluginExample } from './builtin-plugins/image';
+import { SpacerPluginExample } from './builtin-plugins/spacer';
 
 const ReactPageExamples = () => {
   return (
     <Router>
       <Switch>
         <Route exact path="/">
-          <Simple />
+          <SimpleExample />
         </Route>
         <Route path="/simple">
-          <Simple />
+          <SimpleExample />
         </Route>
         <Route path="/simple-readonly">
-          <SimpleReadonly />
+          <SimpleReadonlyExample />
         </Route>
         <Route path="/builtin-plugins/image">
-          <ImagePlugin />
+          <ImagePluginExample />
         </Route>
         <Route path="/builtin-plugins/spacer">
-          <SpacerPlugin />
+          <SpacerPluginExample />
         </Route>
       </Switch>
     </Router>
