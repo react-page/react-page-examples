@@ -7,7 +7,7 @@
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject",
-    "upgrade-react-page": "export PACKAGE=''; for i in react-page editor plugins-background plugins-slate plugins-image plugins-spacer; do PACKAGE=\"${PACKAGE} @react-page/${i}@latest\"; done;  yarn add ${PACKAGE}"
+    "upgrade-react-page": "export PACKAGE=''; for i in editor plugins-background plugins-slate plugins-image plugins-spacer; do PACKAGE=\"${PACKAGE} @react-page/${i}@latest\"; done;  yarn add ${PACKAGE}"
   },
   "dependencies": {
     "@react-page/editor": "^0.27.0",
