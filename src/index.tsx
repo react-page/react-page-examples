@@ -11,16 +11,12 @@ import { SimpleExample } from './SimpleExample';
 import { SimpleReadonlyExample } from './SimpleReadonly';
 import { ImagePluginExample } from './builtin-plugins/image';
 import { SpacerPluginExample } from './builtin-plugins/spacer';
-import { SlateMain } from './slate/SlateMain';
+import { BasicContentPluginExample } from './content/BasicContentPluginExample';
 
 const ReactPageExamples = () => {
   return (
     <Router>
       <Switch>
-        <Route path="/slate">
-          <SlateMain />
-        </Route>
-
         <Route exact path="/">
           <SimpleExample />
         </Route>
@@ -29,6 +25,9 @@ const ReactPageExamples = () => {
         </Route>
         <Route path="/simple-readonly">
           <SimpleReadonlyExample />
+        </Route>
+        <Route path="/content/basic">
+          <BasicContentPluginExample />
         </Route>
         <Route path="/builtin-plugins/image">
           <ImagePluginExample />
