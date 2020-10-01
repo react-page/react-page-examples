@@ -1563,21 +1563,6 @@
     "@react-page/core" "^0.27.0"
     "@react-page/ui" "^0.27.0"
 
-"@react-page/plugins-default-native@^0.27.0":
-  version "0.27.0"
-  resolved "https://registry.yarnpkg.com/@react-page/plugins-default-native/-/plugins-default-native-0.27.0.tgz#5984d885ad58adfdeaf2ce9732324f42bc9c33d3"
-  integrity sha512-Z9eVm4A7Ejr96wise+Jk2CtgsJIgSQsPRhOZvE4QgYJ6s/+N1/cE9fmCqDeyrN3QQSlhCHDQ7Rf5mwFZM/N1GQ==
-  dependencies:
-    "@react-page/core" "^0.27.0"
-
-"@react-page/plugins-divider@^0.27.0":
-  version "0.27.0"
-  resolved "https://registry.yarnpkg.com/@react-page/plugins-divider/-/plugins-divider-0.27.0.tgz#4d291305cec1c94a7aec793279d0464ac8726ac2"
-  integrity sha512-45wtalLOuO6bwHd2GlAB+rfq98MHPB4gvziESQy4SOylKEr7mIHb767autQFXaXmSCyRF3TCzoYYpp/aosNJaw==
-  dependencies:
-    "@material-ui/icons" "^4.2.1"
-    "@react-page/core" "^0.27.0"
-
 "@react-page/plugins-image@^0.27.0":
   version "0.27.0"
   resolved "https://registry.yarnpkg.com/@react-page/plugins-image/-/plugins-image-0.27.0.tgz#784d0c524ff53b165f593184ae02c373f81371c9"
@@ -1623,32 +1608,6 @@
     "@react-page/ui" "^0.27.0"
     classnames "2.2.6"
     react-resizable "^1.9.0"
-
-"@react-page/plugins-video@^0.27.0":
-  version "0.27.0"
-  resolved "https://registry.yarnpkg.com/@react-page/plugins-video/-/plugins-video-0.27.0.tgz#058e2f01391803e3156d7ec814aabaf5478080bf"
-  integrity sha512-QYZSWeF45Ojgf9+S1dq50KtHzWOV9Ka4WzPYlBwk7i53NnHaPaVN6kX7P+b2OP8aFeCogawYgXtWQIw7EPEhig==
-  dependencies:
-    "@react-page/core" "^0.27.0"
-    "@react-page/ui" "^0.27.0"
-    react-player "^1.13.0"
-
-"@react-page/react-page@^0.27.0":
-  version "0.27.0"
-  resolved "https://registry.yarnpkg.com/@react-page/react-page/-/react-page-0.27.0.tgz#1197b9d066608f697ab57711b24e37b258ac37eb"
-  integrity sha512-TsEu1BFmDp+g+VY6CyOcfuMkFKpKCBDC9a2sWZJzg0vuEf+9aRTCu82DGTDnxATlgloUSquW3pioOp1RMQAebQ==
-  dependencies:
-    "@react-page/core" "^0.27.0"
-    "@react-page/editor" "^0.27.0"
-    "@react-page/plugins-background" "^0.27.0"
-    "@react-page/plugins-default-native" "^0.27.0"
-    "@react-page/plugins-divider" "^0.27.0"
-    "@react-page/plugins-image" "^0.27.0"
-    "@react-page/plugins-slate" "^0.27.0"
-    "@react-page/plugins-spacer" "^0.27.0"
-    "@react-page/plugins-video" "^0.27.0"
-    "@react-page/renderer" "^0.27.0"
-    "@react-page/ui" "^0.27.0"
 
 "@react-page/renderer@^0.27.0":
   version "0.27.0"
@@ -4094,11 +4053,6 @@ deep-rename-keys@^0.2.1:
   dependencies:
     kind-of "^3.0.2"
     rename-keys "^1.1.2"
-
-deepmerge@^4.0.0:
-  version "4.2.2"
-  resolved "https://registry.yarnpkg.com/deepmerge/-/deepmerge-4.2.2.tgz#44d2ea3679b8f4d4ffba33f03d865fc1e7bf4955"
-  integrity sha512-FJ3UgI4gIl+PHZm53knsuSFpE+nESMr7M4v9QcgB7S63Kj/6WqMiFQJpBBYz1Pt+66bZpP3Q7Lye0Oo9MPKEdg==
 
 default-gateway@^4.2.0:
   version "4.2.0"
@@ -7266,11 +7220,6 @@ load-json-file@^4.0.0:
     pify "^3.0.0"
     strip-bom "^3.0.0"
 
-load-script@^1.0.0:
-  version "1.0.0"
-  resolved "https://registry.yarnpkg.com/load-script/-/load-script-1.0.0.tgz#0491939e0bee5643ee494a7e3da3d2bac70c6ca4"
-  integrity sha1-BJGTngvuVkPuSUp+PaPSuscMbKQ=
-
 loader-fs-cache@^1.0.2:
   version "1.0.3"
   resolved "https://registry.yarnpkg.com/loader-fs-cache/-/loader-fs-cache-1.0.3.tgz#f08657646d607078be2f0a032f8bd69dd6f277d9"
@@ -9551,15 +9500,6 @@ react-is@^16.6.0, react-is@^16.7.0, react-is@^16.8.0, react-is@^16.8.1, react-is
   version "16.13.1"
   resolved "https://registry.yarnpkg.com/react-is/-/react-is-16.13.1.tgz#789729a4dc36de2999dc156dd6c1d9c18cea56a4"
   integrity sha512-24e6ynE2H+OKt4kqsOvNd8kBpV65zoxbA4BVsEOB3ARVWQki/DHzaUoC5KuON/BiccDaCCTZBuOcfZs70kR8bQ==
-
-react-player@^1.13.0:
-  version "1.15.3"
-  resolved "https://registry.yarnpkg.com/react-player/-/react-player-1.15.3.tgz#d00cf145f9c86184cb0a071a1fbf8ecb7b68987f"
-  integrity sha512-8fc0R1AipFIy7l4lKgnIg+gMU2IY32ZMxxBlINjXAq/YnN3HUP3hOaE+aQ0lQv+a1/MMZgbekWD86ZGDO7kB8g==
-  dependencies:
-    deepmerge "^4.0.0"
-    load-script "^1.0.0"
-    prop-types "^15.7.2"
 
 react-portal@4.1.5:
   version "4.1.5"
