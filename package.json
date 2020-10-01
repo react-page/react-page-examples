@@ -7,20 +7,30 @@
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject",
-    "upgrade-react-page": "for i in react-page editor plugins-background plugins-slate; do yarn add \"@react-page/${i}@latest\"; done"
+    "upgrade-react-page": "export PACKAGE=''; for i in react-page editor plugins-background plugins-slate plugins-image plugins-spacer; do PACKAGE=\"${PACKAGE} @react-page/${i}@latest\"; done;  yarn add ${PACKAGE}"
   },
   "dependencies": {
-    "@react-page/editor": "^0.26.0",
-    "@react-page/plugins-background": "^0.26.0",
-    "@react-page/plugins-slate": "^0.26.0",
-    "@react-page/react-page": "^0.26.0",
+    "@react-page/editor": "^0.27.0",
+    "@react-page/plugins-background": "^0.27.0",
+    "@react-page/plugins-image": "^0.27.0",
+    "@react-page/plugins-slate": "^0.27.0",
+    "@react-page/plugins-spacer": "^0.27.0",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
+    "react-router-dom": "^5.2.0",
     "typescript": "^4.0.3"
   },
   "devDependencies": {
     "@types/react": "^16.9.49",
     "@types/react-dom": "^16.9.8",
+    "@types/react-router-dom": "^5.1.5",
+    "@typescript-eslint/eslint-plugin": "^4.3.0",
+    "@typescript-eslint/parser": "^4.3.0",
+    "eslint": "^7.10.0",
+    "eslint-config-prettier": "^6.12.0",
+    "eslint-plugin-react": "^7.21.2",
+    "prettier": "^2.1.2",
+    "prettier-eslint": "^11.0.0",
     "react-scripts": "latest"
   },
   "browserslist": {
