@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React from 'react';
 
 import Editor from '@react-page/editor';
 import slate from '@react-page/plugins-slate';
@@ -12,12 +12,11 @@ const plugins = {
 };
 
 export const SimpleReadonlyExample = () => {
-  const [editorValue] = useState(simpleReadonlyDefaultState);
   return (
     <Editor
       plugins={plugins}
       defaultPlugin={slate()}
-      value={editorValue}
+      value={simpleReadonlyDefaultState}
       readOnly={true}
     />
   );
