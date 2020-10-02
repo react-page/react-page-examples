@@ -1475,10 +1475,10 @@
   resolved "https://registry.yarnpkg.com/@react-dnd/shallowequal/-/shallowequal-2.0.0.tgz#a3031eb54129f2c66b2753f8404266ec7bf67f0a"
   integrity sha512-Pc/AFTdwZwEKJxFJvlxrSmGe/di+aAOBn60sremrpLo6VI/6cmiUYNNwlI5KNYttg7uypzA3ILPMPgxB2GYZEg==
 
-"@react-page/core@^0.26.0":
-  version "0.26.0"
-  resolved "https://registry.yarnpkg.com/@react-page/core/-/core-0.26.0.tgz#8abf4df0f4c96e677c65d3b87bda88859ef6b632"
-  integrity sha512-oevjG5e5prD2C9stpEkIplA285QZuoEsIM6Zx+v8uubhPnGzPznULEm+leJ0e2NBtQNYAY1l43H2TJrWUENnOg==
+"@react-page/core@^0.27.2":
+  version "0.27.2"
+  resolved "https://registry.yarnpkg.com/@react-page/core/-/core-0.27.2.tgz#5d79418ae7d932bf8abcd5f04cdfc4615ecf68d2"
+  integrity sha512-IaK9c1f85foZySL8/zPSqnqpRWQWsOS4GYuRfilgmdJR+WG6KGGcp3eM5G/j0Z4NZOv3AtKB9FIHDXgk6Ki+cw==
   dependencies:
     "@loadable/component" "5.10.3"
     classnames "^2.2.5"
@@ -1496,68 +1496,68 @@
     semver "^7.3.2"
     uuid "^3.0.1"
 
-"@react-page/create-plugin-materialui@^0.26.0":
-  version "0.26.0"
-  resolved "https://registry.yarnpkg.com/@react-page/create-plugin-materialui/-/create-plugin-materialui-0.26.0.tgz#041f2320f4ca59b73015203ffbe839158d0aafe5"
-  integrity sha512-cBP0PFNwqpZnG4PofySxSkgGYjqGqV71XDCOZVZ1RMeaLRstDz0IuAwO1i6NtL0Of5y8uVbjJzVPKNWbvHfteg==
+"@react-page/create-plugin-materialui@^0.27.2":
+  version "0.27.2"
+  resolved "https://registry.yarnpkg.com/@react-page/create-plugin-materialui/-/create-plugin-materialui-0.27.2.tgz#5141b18852dd52521d501d2eb9c5f42a034e110d"
+  integrity sha512-hb0CWDgFaPNSpr44x2tiMEWvLmSueEkHVT5S/0qbOQC7uSaAQhqaRaOmcbZmMvVWgmYGuGfvQSAMjk3Qr5hFrA==
   dependencies:
-    "@react-page/core" "^0.26.0"
-    "@react-page/ui" "^0.26.0"
+    "@react-page/core" "^0.27.2"
+    "@react-page/ui" "^0.27.2"
     ajv "^6.12.5"
     lodash.debounce "^4.0.8"
     uniforms "~2.5.0"
     uniforms-bridge-json-schema "~2.5.0"
     uniforms-material "~2.5.0"
 
-"@react-page/editor@^0.26.0":
-  version "0.26.0"
-  resolved "https://registry.yarnpkg.com/@react-page/editor/-/editor-0.26.0.tgz#e592f09657f101a1cd88cae939127bc15ca0e1c1"
-  integrity sha512-Q80T9RGvgg3RE56E8WVEhubdNrCdjtZe7fu264v7yhY6YvwRB/eK/By4wmLRWhCCvc+xcshs4mMxa3ZwzG0HKQ==
+"@react-page/editor@^0.27.2":
+  version "0.27.2"
+  resolved "https://registry.yarnpkg.com/@react-page/editor/-/editor-0.27.2.tgz#970c1918e9dcc4c22b65a18303f69293baeb31ad"
+  integrity sha512-H+STRb/BRdg4lX6UwzQpZBjsrrwQEFOdWdq+tjB3G6+jXvcXhAKO5pgYxJTiED2QIwuW33mmcMoxQfFfbJxBIg==
   dependencies:
-    "@react-page/core" "^0.26.0"
-    "@react-page/renderer" "^0.26.0"
-    "@react-page/ui" "^0.26.0"
+    "@react-page/core" "^0.27.2"
+    "@react-page/renderer" "^0.27.2"
+    "@react-page/ui" "^0.27.2"
 
-"@react-page/plugins-background@^0.26.0":
-  version "0.26.0"
-  resolved "https://registry.yarnpkg.com/@react-page/plugins-background/-/plugins-background-0.26.0.tgz#b4d74e7336df983da623b37d59baf0f9d98ed648"
-  integrity sha512-rlNf9Ni849LBj0wqJ9XXHSgnlEUu3r8gU7O1bQRIJOlTBbwgiQkOqgUeRvvjqvWJGv1fmUDNj93PuxDG9me9gQ==
+"@react-page/plugins-background@^0.27.2":
+  version "0.27.2"
+  resolved "https://registry.yarnpkg.com/@react-page/plugins-background/-/plugins-background-0.27.2.tgz#1587ce4457cfe6dd0bca7500f5cb68135d53ef47"
+  integrity sha512-B73N9slZF4XfECZBZ6fcWuocDnyztl99MomyQ2/bOVZPLBo0Efw2sZ9iextkADg4acEPmdQ0HKWUM6YujQmtxQ==
   dependencies:
-    "@react-page/core" "^0.26.0"
-    "@react-page/ui" "^0.26.0"
+    "@react-page/core" "^0.27.2"
+    "@react-page/ui" "^0.27.2"
 
-"@react-page/plugins-default-native@^0.26.0":
-  version "0.26.0"
-  resolved "https://registry.yarnpkg.com/@react-page/plugins-default-native/-/plugins-default-native-0.26.0.tgz#ad2aa8ee2aa2850e28a7b8c1f61c562ded21cd90"
-  integrity sha512-rp5ljQANoamIDDJ4427JkQOhir9fsG41TW/ulQrAw/GHgbnvhEekSQhDtTxtuXJ4Q9bZSGXXJFyUKZIULY/6tQ==
+"@react-page/plugins-default-native@^0.27.2":
+  version "0.27.2"
+  resolved "https://registry.yarnpkg.com/@react-page/plugins-default-native/-/plugins-default-native-0.27.2.tgz#e0b75cc9b49e404a67b9ebafd4f67e1460335994"
+  integrity sha512-FYAEnHGtfxzpG6gdwDdso4iu3puAZZE1GUY4Q+1H41r51bxyuiXktD00cVW/8dC+RA0lo0L7sN/DUs49EBRWbw==
   dependencies:
-    "@react-page/core" "^0.26.0"
+    "@react-page/core" "^0.27.2"
 
-"@react-page/plugins-divider@^0.26.0":
-  version "0.26.0"
-  resolved "https://registry.yarnpkg.com/@react-page/plugins-divider/-/plugins-divider-0.26.0.tgz#c2c9f91ebdf6985d82d5d4d31333980e2355c7db"
-  integrity sha512-8Pl38qSzJCOVk3jPSrDeh2xALvomehx0wH6CCbjCke5qZq5EcrPeRmdnZqvovW3Vgut/3YAzRElVBlDe+abExQ==
+"@react-page/plugins-divider@^0.27.2":
+  version "0.27.2"
+  resolved "https://registry.yarnpkg.com/@react-page/plugins-divider/-/plugins-divider-0.27.2.tgz#76ce2afc1c70089a7416f57f408af3a81ac31e52"
+  integrity sha512-0ipWH2hFEM6aRJD5mS4oGY6PlMtciCYr76i2RuAxUDGZ4DLR1NZ/aKI0adLmqTd1hzefj9phXo9YIjUf/PTDpA==
   dependencies:
     "@material-ui/icons" "^4.2.1"
-    "@react-page/core" "^0.26.0"
+    "@react-page/core" "^0.27.2"
 
-"@react-page/plugins-image@^0.26.0":
-  version "0.26.0"
-  resolved "https://registry.yarnpkg.com/@react-page/plugins-image/-/plugins-image-0.26.0.tgz#90e1c0c2248fe275f3d4f9b311ac0c212f033601"
-  integrity sha512-nYoLqEEjIWhvKaYqy8ploOOsHAmPx4u8m/Vrk7qyro4k8jQgUNS1e2HXKCjQ77GbeX4i6/AtwRh4abSIIPph3w==
+"@react-page/plugins-image@^0.27.2":
+  version "0.27.2"
+  resolved "https://registry.yarnpkg.com/@react-page/plugins-image/-/plugins-image-0.27.2.tgz#d94d2116f127cd7ca87f0aa63759412002ec67fe"
+  integrity sha512-z2VifKrmdWJa3e/rtcoWEWeIuu8KypMLvswPgarJN6a+1zh2wJDYtYj3udNnzv12Fun91/ngX/LIPLncjgjQ5g==
   dependencies:
-    "@react-page/core" "^0.26.0"
-    "@react-page/ui" "^0.26.0"
+    "@react-page/core" "^0.27.2"
+    "@react-page/ui" "^0.27.2"
 
-"@react-page/plugins-slate@^0.26.0":
-  version "0.26.0"
-  resolved "https://registry.yarnpkg.com/@react-page/plugins-slate/-/plugins-slate-0.26.0.tgz#b1d8ee6325b65d6fff28ceac9f00f2265d3cb6e7"
-  integrity sha512-W/R/0952IzSecAbgrLIsGjV4iv+YjPkr7/8G/Koa3J2pixI/Gxxjx4BtLJGwjv49uTbGppRzZadOlsHNalg66A==
+"@react-page/plugins-slate@^0.27.2":
+  version "0.27.2"
+  resolved "https://registry.yarnpkg.com/@react-page/plugins-slate/-/plugins-slate-0.27.2.tgz#7aefe71f53bd8c3c7fbf827bec07c8668d3e2d47"
+  integrity sha512-aFGovPktLBymFl3rb3XTTQ9Vgvd8pLWoArpEymdAPpsrHCo6q/R7Vf/V7cpJvuV7bnMKIp8Y0nb84CZKxktwyA==
   dependencies:
     "@emotion/is-prop-valid" "^0.8.8"
-    "@react-page/core" "^0.26.0"
-    "@react-page/create-plugin-materialui" "^0.26.0"
-    "@react-page/ui" "^0.26.0"
+    "@react-page/core" "^0.27.2"
+    "@react-page/create-plugin-materialui" "^0.27.2"
+    "@react-page/ui" "^0.27.2"
     cssstyle "^2.3.0"
     deep-rename-keys "^0.2.1"
     is-hotkey "^0.1.6"
@@ -1577,60 +1577,60 @@
     uniforms-material "~2.5.0"
     xmldom "^0.3.0"
 
-"@react-page/plugins-spacer@^0.26.0":
-  version "0.26.0"
-  resolved "https://registry.yarnpkg.com/@react-page/plugins-spacer/-/plugins-spacer-0.26.0.tgz#7a3c205b957a59f9681461f0eb7a80797d0ce8af"
-  integrity sha512-/By1H2NzFFXSyeifNs3zTA0BYzgA9c8w2JTy/5HU7ffTsniUO/z6pfwJOnHIwxwcXgjEXaxMuJISHKnSWeLbXA==
+"@react-page/plugins-spacer@^0.27.2":
+  version "0.27.2"
+  resolved "https://registry.yarnpkg.com/@react-page/plugins-spacer/-/plugins-spacer-0.27.2.tgz#3e9a8232ba6adfa5cd30b0364f33c8f7ee458dd3"
+  integrity sha512-FcnQGpJIPhjD7Xnzz3s7uo30WCjkDEkF5czwbnkWlkwNGquXNwE54iKl3RSMvTvl94goe2WpRfdg16UzuaUnrQ==
   dependencies:
-    "@react-page/core" "^0.26.0"
-    "@react-page/ui" "^0.26.0"
+    "@react-page/core" "^0.27.2"
+    "@react-page/ui" "^0.27.2"
     classnames "2.2.6"
     react-resizable "^1.9.0"
 
-"@react-page/plugins-video@^0.26.0":
-  version "0.26.0"
-  resolved "https://registry.yarnpkg.com/@react-page/plugins-video/-/plugins-video-0.26.0.tgz#33af4111a4e2d27dec5dac95eede5e39415bea72"
-  integrity sha512-P9qUN69Gdb5JuquO7EN8rB0lmfAp1muUBUigycUrjlW6/N31ubGXHnN44p/JBtOfnt+EF/NUJZRp4DIJUgQyrQ==
+"@react-page/plugins-video@^0.27.2":
+  version "0.27.2"
+  resolved "https://registry.yarnpkg.com/@react-page/plugins-video/-/plugins-video-0.27.2.tgz#8a84da767433740d6e476e5910b335330ded0154"
+  integrity sha512-eVcdkqOpynYbzI4w2iYj/T8ce+2Y7RFNRRGB48/PPTkNGeP/Efu+MspSJ+XHIoCEfFbXjbEXocEhA/sTr0tJBQ==
   dependencies:
-    "@react-page/core" "^0.26.0"
-    "@react-page/ui" "^0.26.0"
+    "@react-page/core" "^0.27.2"
+    "@react-page/ui" "^0.27.2"
     react-player "^1.13.0"
 
-"@react-page/react-page@^0.26.0":
-  version "0.26.0"
-  resolved "https://registry.yarnpkg.com/@react-page/react-page/-/react-page-0.26.0.tgz#041cc1a0036ec471083f573a591fd53313d545c6"
-  integrity sha512-bcvZO6NZ5THT/pHhh2qGL2zp4/AFAafA0d1LoX8Z45UewEbapk828oKyJyq84cAs0XrE/GqdjBuM/otegTEunw==
+"@react-page/react-page@^0.27.2":
+  version "0.27.2"
+  resolved "https://registry.yarnpkg.com/@react-page/react-page/-/react-page-0.27.2.tgz#6de7e6c355934724001f4b9ab4ba669ed09492ed"
+  integrity sha512-+FvGsLssQW/1MCDyLmgNLKWVDt+KXFW5gYRBw67mhzi31E6JqW/zYD98S7roYiaoJUnL260T4gniaYoGuJW5pQ==
   dependencies:
-    "@react-page/core" "^0.26.0"
-    "@react-page/editor" "^0.26.0"
-    "@react-page/plugins-background" "^0.26.0"
-    "@react-page/plugins-default-native" "^0.26.0"
-    "@react-page/plugins-divider" "^0.26.0"
-    "@react-page/plugins-image" "^0.26.0"
-    "@react-page/plugins-slate" "^0.26.0"
-    "@react-page/plugins-spacer" "^0.26.0"
-    "@react-page/plugins-video" "^0.26.0"
-    "@react-page/renderer" "^0.26.0"
-    "@react-page/ui" "^0.26.0"
+    "@react-page/core" "^0.27.2"
+    "@react-page/editor" "^0.27.2"
+    "@react-page/plugins-background" "^0.27.2"
+    "@react-page/plugins-default-native" "^0.27.2"
+    "@react-page/plugins-divider" "^0.27.2"
+    "@react-page/plugins-image" "^0.27.2"
+    "@react-page/plugins-slate" "^0.27.2"
+    "@react-page/plugins-spacer" "^0.27.2"
+    "@react-page/plugins-video" "^0.27.2"
+    "@react-page/renderer" "^0.27.2"
+    "@react-page/ui" "^0.27.2"
 
-"@react-page/renderer@^0.26.0":
-  version "0.26.0"
-  resolved "https://registry.yarnpkg.com/@react-page/renderer/-/renderer-0.26.0.tgz#ba1d5ff7e50870e02e8f0b76d1632a27ea009148"
-  integrity sha512-quj5MCvhTe+KqQCWoAFyJ0aPt4IypysxzIWMtRgT2tBYnT3fwpX0oxeDQ+4je63Uzb8Y/3FJcISxcP+kzt36aA==
+"@react-page/renderer@^0.27.2":
+  version "0.27.2"
+  resolved "https://registry.yarnpkg.com/@react-page/renderer/-/renderer-0.27.2.tgz#02640f93d9051b835773088342ec634d1fa5113c"
+  integrity sha512-QNoRwa74yAqqsZBJNPIW96WXIA0tt73l8uhumK1PWuk/PPokZd6/Oxuuh5yVavYSuKLpWGNjHU+aH30B+MrFGQ==
   dependencies:
-    "@react-page/core" "^0.26.0"
+    "@react-page/core" "^0.27.2"
     classnames "^2.2.5"
 
-"@react-page/ui@^0.26.0":
-  version "0.26.0"
-  resolved "https://registry.yarnpkg.com/@react-page/ui/-/ui-0.26.0.tgz#4ab9045095458a1afb50c8a04fdba876dce6c7a0"
-  integrity sha512-3Z2BOnuB1nH9Ks1sGrowiOkOBkX1GQQRCtw60/wwx83Ym/KE2ck/7WkPQEoaMXJckIemILZC6L3nbt8cMt2/3Q==
+"@react-page/ui@^0.27.2":
+  version "0.27.2"
+  resolved "https://registry.yarnpkg.com/@react-page/ui/-/ui-0.27.2.tgz#204d104b14d79bd0d808ac46e1bee8e12f85ad29"
+  integrity sha512-A5ajL3gvoXR2/xm2aROIK7fsZXbIACDaFT/oAO1tLSSHbF6B8R/QRKl4BvqrMVFeRThDvYNgqW7RwHD9srZ96Q==
   dependencies:
     "@loadable/component" "5.10.3"
     "@material-ui/core" "^4.3.3"
     "@material-ui/icons" "^4.2.1"
     "@material-ui/styles" "^4.3.3"
-    "@react-page/core" "^0.26.0"
+    "@react-page/core" "^0.27.2"
     classnames "^2.2.5"
     lodash.throttle "^4.1.1"
     react-color "^2.14.1"
