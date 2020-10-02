@@ -1,46 +1,43 @@
-import ReactDOM from "react-dom";
-import React, { useState } from "react";
+import ReactDOM from 'react-dom';
+import React from 'react';
+import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 
-// The editor core
-import Editor from "@react-page/editor";
+import '@react-page/core/lib/index.css';
+import '@react-page/ui/lib/index.css';
+import '@react-page/plugins-slate/lib/index.css';
+import '@react-page/plugins-background/lib/index.css';
 
-// we also want to load the stylesheets
-import "@react-page/core/lib/index.css"; 
-// Require editor ui stylesheet
-import "@react-page/ui/lib/index.css";
+import { SimpleExample } from './SimpleExample';
+import { SimpleReadonlyExample } from './SimpleReadonly';
+import { ImagePluginExample } from './builtin-plugins/image';
+import { SpacerPluginExample } from './builtin-plugins/spacer';
+import { BasicContentPluginExample } from './content/BasicContentPluginExample';
 
-// Load some exemplary plugins:
-
-// The rich text area plugin
-import slate from "@react-page/plugins-slate";
-// Stylesheets for the rich text area plugin
-import "@react-page/plugins-slate/lib/index.css";
-
-// A plugin for background images
-import background from "@react-page/plugins-background";
-// Stylesheets for  background layout plugin
-import "@react-page/plugins-background/lib/index.css"; 
-
-// Define which plugins we want to use. 
-// We only have slate and background available, so load those.
-const plugins = {
-  // Define plugins for content cells. 
-  // To import multiple plugins, use [slate(), image, spacer, divider]
-  content: [slate()],
-  
-  // Define plugins for layout cells
-  layout: [background({ defaultPlugin: slate(), imageUpload: null as any })] 
-};
-
-const Simple = () => {
-  const [editorValue, setEditorValue] = useState(null);
+const ReactPageExamples = () => {
   return (
-    <Editor 
-      plugins={plugins} 
-      defaultPlugin={slate()}
-      value={editorValue} 
-      onChange={setEditorValue} />
+    <Router>
+      <Switch>
+        <Route exact path="/">
+          <SimpleExample />
+        </Route>
+        <Route path="/simple">
+          <SimpleExample />
+        </Route>
+        <Route path="/simple-readonly">
+          <SimpleReadonlyExample />
+        </Route>
+        <Route path="/content/basic">
+          <BasicContentPluginExample />
+        </Route>
+        <Route path="/builtin-plugins/image">
+          <ImagePluginExample />
+        </Route>
+        <Route path="/builtin-plugins/spacer">
+          <SpacerPluginExample />
+        </Route>
+      </Switch>
+    </Router>
   );
 };
 
-ReactDOM.render(<Simple />, document.getElementById("root"));
+ReactDOM.render(<ReactPageExamples />, document.getElementById('root'));
