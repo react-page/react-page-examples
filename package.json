@@ -3,10 +3,10 @@
   "version": "0.0.0",
   "private": true,
   "scripts": {
-    "start": "react-scripts-ts start",
-    "build": "react-scripts-ts build",
-    "test": "react-scripts-ts test --env=jsdom",
-    "eject": "react-scripts-ts eject",
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject",
     "upgrade-react-page": "export PACKAGE=''; for i in editor plugins-background plugins-slate plugins-image plugins-spacer; do PACKAGE=\"${PACKAGE} @react-page/${i}@latest\"; done;  yarn add ${PACKAGE}"
   },
   "dependencies": {
@@ -30,7 +30,7 @@
     "eslint-plugin-react": "^7.21.2",
     "prettier": "^2.1.2",
     "prettier-eslint": "^11.0.0",
-    "react-scripts-ts": "latest"
+    "react-scripts": "latest"
   },
   "browserslist": {
     "production": [
