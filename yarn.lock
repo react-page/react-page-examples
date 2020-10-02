@@ -1599,6 +1599,16 @@
     uniforms-material "~2.5.0"
     xmldom "^0.3.0"
 
+"@react-page/plugins-spacer@^0.27.2":
+  version "0.27.2"
+  resolved "https://registry.yarnpkg.com/@react-page/plugins-spacer/-/plugins-spacer-0.27.2.tgz#3e9a8232ba6adfa5cd30b0364f33c8f7ee458dd3"
+  integrity sha512-FcnQGpJIPhjD7Xnzz3s7uo30WCjkDEkF5czwbnkWlkwNGquXNwE54iKl3RSMvTvl94goe2WpRfdg16UzuaUnrQ==
+  dependencies:
+    "@react-page/core" "^0.27.2"
+    "@react-page/ui" "^0.27.2"
+    classnames "2.2.6"
+    react-resizable "^1.9.0"
+
 "@react-page/renderer@^0.27.2":
   version "0.27.2"
   resolved "https://registry.yarnpkg.com/@react-page/renderer/-/renderer-0.27.2.tgz#02640f93d9051b835773088342ec634d1fa5113c"
@@ -3297,7 +3307,7 @@ class-utils@^0.3.5:
     isobject "^3.0.0"
     static-extend "^0.1.1"
 
-classnames@^2.2.5:
+classnames@2.2.6, classnames@^2.2.5:
   version "2.2.6"
   resolved "https://registry.yarnpkg.com/classnames/-/classnames-2.2.6.tgz#43935bffdd291f326dad0a205309b38d00f650ce"
   integrity sha512-JR/iSQOSt+LQIWwrwEzJ9uk0xfN3mTVYMwt1Ir5mUcSN6pU+V4zQFFaJsclJbPuAUQH+yfWef6tm7l1quW3C8Q==
@@ -9509,7 +9519,7 @@ react-redux@^7.2.0:
     prop-types "^15.7.2"
     react-is "^16.9.0"
 
-react-resizable@^1.10.1:
+react-resizable@^1.10.1, react-resizable@^1.9.0:
   version "1.11.0"
   resolved "https://registry.yarnpkg.com/react-resizable/-/react-resizable-1.11.0.tgz#0b237c4aff16937b7663de1045861749683227ad"
   integrity sha512-VoGz2ddxUFvildS8r8/29UZJeyiM3QJnlmRZSuXm+FpTqq/eIrMPc796Y9XQLg291n2hFZJtIoP1xC3hSTw/jg==
